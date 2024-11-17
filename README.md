@@ -16,9 +16,8 @@ git clone https://github.com/your-username/tic-tac-toe.git
 cd tic-tac-toe
 ```
 
-### 2. Backend Setup
+### 2. Setup
 ```bash
-cd backend
 npm install
 ```
 
@@ -30,37 +29,24 @@ PORT=3000
 JWT_SECRET=mysecretkey
 ```
 
-### 3. Frontend Setup
-```
-cd ../frontend
-npm install
-```
-
-### 4. Run Redis Server
-If you have Docker:
+### 3. (Optional) Run Redis Server 
+If you have Docker, and don't have the Redis CLI installed, run this command:
 ```
 docker run -p 6379:6379 --name redis-server -d redis
 ```
 
-### 5. Start Backend Server
+### 4. Start Backend Server
 ```
 node server.js
 ```
 
-### 6. Start Frontend Server
+### 5. Start Frontend Server
 ```
-cd ../frontend
 npm run dev
 ```
 
-### 7. Access the Game
+### 6. Access the Game
 Open your browser and go to:
 ```
 http://localhost:5173
 ```
-
-
-
-
-
-
