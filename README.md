@@ -37,7 +37,7 @@ docker run -p 6379:6379 --name redis-server -d redis
 
 ### 4. Start Backend Server
 ```
-node server.js
+npm start
 ```
 
 ### 5. Start Frontend Server
